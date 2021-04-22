@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -------------------a----------------- */
+a {
+  padding: 3px 6px;
+  background-color: saddlebrown;
+  color: antiquewhite;
+  font-size: 23px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.pages {
+  margin: 10px;
+  text-align: center;
+  width: 100vw;
+}

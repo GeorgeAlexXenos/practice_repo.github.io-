@@ -1,0 +1,396 @@
+/*------------- global ----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  box-shadow: 10px 0px 100px rgba(0, 0, 0, 0.603);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+::-moz-selection {
+  color: rgb(255, 255, 255);
+  background: rgb(117, 91, 3);
+}
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(117, 91, 3);
+}
+/*---------------------------------------*/
+
+/*---------------- forms ----------------*/
+.form {
+  text-align: center;
+  background-color: #5cbff85b;
+  margin: 5px;
+  padding: 10px 0 0 0;
+  border: 1px solid black;
+}
+
+/*---------------- forms ----------------*/
+
+/*---------------- links ----------------*/
+.fixed_anchor {
+  background-color: #eccea7;
+  color: #41525e;
+  position: absolute;
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+  margin: 2px 5px;
+  transition: all 0.3s ease-in;
+}
+.fixed_anchor:hover {
+  background-color: #41525e;
+  color: #eccea7;
+}
+/*---------------------------------------*/
+
+/*----------- MathOperators -----------*/
+.MathOperators {
+  margin: 10px auto;
+  width: 98vw;
+  min-height: 89vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  border: 2px solid blueviolet;
+}
+.MathOperators1 {
+  max-width: 730px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+}
+.MathOperators2 {
+  max-width: 730px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  margin: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+}
+.assignmentOperators {
+  width: 98vw;
+  margin: 30px auto 0;
+  background-color: #ecf0f1;
+  border: 3px solid black;
+  overflow: auto;
+}
+.comparisonOperators {
+  width: 98vw;
+  margin: 40px auto 0;
+  border: 3px solid black;
+}
+.changePassword {
+  min-height: 93vh;
+}
+.theory {
+  margin: auto;
+  width: 80vw;
+}
+/* -------------------------------------------- */
+
+/* -------------------Heading----------------- */
+h1 {
+  text-align: center;
+  background-color: gray;
+  border-bottom: 3px solid black;
+}
+h2 {
+  margin-top: 0.8rem;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+h3 {
+  margin: 10px;
+}
+h3.title {
+  text-align: center;
+}
+.changePassword h3 {
+  margin: 15px 0 0 10px;
+}
+
+/* ---------------------------------------- */
+
+/* ---------------------p------------------- */
+p {
+  margin: 5px 10px;
+  font-size: 1.3rem;
+}
+
+.MathOperators1 p:last-of-type {
+  text-align: center;
+  background-color: rgb(236, 206, 167);
+  border-radius: 15px;
+}
+.MathOperators2 p:last-of-type {
+  margin: 15px;
+  text-align: center;
+  background-color: rgb(236, 206, 167);
+  border-radius: 15px;
+}
+.operators {
+  margin: 5px auto;
+  padding: 5px;
+  max-width: 650px;
+  background-color: rgb(236, 206, 167);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.pcomparison {
+  margin: 5px auto;
+  padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: rgb(236, 206, 167);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.theory p {
+  max-width: 650px;
+  margin: auto;
+}
+.changePassword p {
+  padding: 0;
+  margin: 0px 10px;
+}
+.changePassword p:last-of-type {
+  padding: 5px 0;
+  margin: 10px 10px;
+}
+.changePassword p:first-of-type {
+  margin: 10px;
+}
+.logicalOperators > p {
+  text-align: center;
+}
+p span[class="bold"] {
+  font-weight: 600;
+}
+/* -------------------------------------- */
+
+/* ----------------images---------------- */
+img {
+  display: block;
+  margin: 15px auto;
+  width: 96%;
+}
+img[alt="change your password"] {
+  height: 360px;
+}
+/* -------------------------------------- */
+
+/* -------- result id's from javascript -------- */
+#result,
+#result2,
+#result3,
+#result4,
+#result5,
+#result6 {
+  display: block;
+  width: 80%;
+  font-size: 1.6rem;
+  padding: 5px;
+  margin: 10px auto;
+  background-color: rgb(92, 191, 248);
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* -------------------------------------- */
+
+/* ------------input-labels----------- */
+input {
+  padding: 5px 0;
+  background-color: rgb(250, 250, 250);
+  border: none;
+}
+label[for] {
+  font-size: 1.5em;
+}
+input[placeholder] {
+  font-size: 1.4rem;
+  width: 150px;
+  text-align: center;
+}
+input[onClick] {
+  font-size: 1.4rem;
+  background-color: rgb(214, 164, 99);
+  padding: 5px 8px;
+  margin: 0 0 0 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+input[onClick]:hover {
+  background-color: rgb(250, 191, 113);
+}
+.movetop {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #e0b377;
+  color: #244e66;
+  padding: 10px 0 0 10px;
+  border-radius: 40px 0 0 0;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.movetop:hover {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #244e66;
+  color: #e0b377;
+  padding: 10px 0 0 10px;
+  border-radius: 40px 0 0 0;
+  font-size: 1.5rem;
+}
+/* -------------------------------------- */
+
+/* ----------------tables---------------- */
+table {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ecf0f1;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 3px 3px 8px rgb(98, 98, 98);
+  border-radius: 10px 10px 0 0;
+}
+table th {
+  color: #fafffa;
+  background-color: #89c446;
+  padding: 7px 10px;
+  text-align: center;
+  border-bottom: 2px solid #436717;
+}
+
+table th:first-child {
+  border-right: 2px solid cornsilk;
+  border-radius: 10px 0 0 0;
+}
+table th:last-child {
+  border-left: 2px solid cornsilk;
+  border-radius: 0 10px 0 0;
+}
+/* odd = (2n+1), even = (2n+0) */
+tr:nth-child(2n + 1) {
+  background-color: #ffffff;
+}
+td {
+  padding: 0 0 6px 25px;
+}
+.table3 thead th {
+  border-radius: 10px 10px 0 0;
+  border: none;
+}
+.table3 td {
+  padding: 0 10px 6px 10px;
+}
+/* -------------------------------------- */
+
+/* --------------Media Queries-------------- */
+@media only screen and (max-width: 700px) {
+  table {
+    font-size: 18px;
+  }
+  .operators {
+    margin: 5px 10px;
+    padding: 5px;
+    max-width: 650px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  input {
+    padding: 5px 0;
+    background-color: rgb(250, 250, 250);
+    border: none;
+  }
+  label[for] {
+    font-size: 1.2em;
+  }
+  input[placeholder] {
+    font-size: 1.2rem;
+    width: 120px;
+  }
+  input[onClick] {
+    font-size: 1.1rem;
+    background-color: rgb(224, 179, 119);
+    padding: 5px;
+  }
+  #result,
+  #result2,
+  #result3,
+  #result4,
+  #result5,
+  #result6 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  table {
+    font-size: 18px;
+  }
+  .fixed_anchor {
+    font-size: 18px;
+    padding: 0 5px;
+    margin: 8px 0 0 2px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  table th {
+    font-size: 14px;
+    padding: 0 2px;
+  }
+  td {
+    font-size: 14px;
+    width: 50%;
+    padding: 0 0 3px 15px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  input[placeholder] {
+    font-size: 1.2rem;
+    width: 80px;
+  }
+  h1 {
+    font-size: 1.4em;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+  input[onClick] {
+    margin-top: 8px;
+  }
+  .fixed_anchor {
+    font-size: 18px;
+    padding: 1px 5px;
+    margin: 2px 0 0 2px;
+  }
+}

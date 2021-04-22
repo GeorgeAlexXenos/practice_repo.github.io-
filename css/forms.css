@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fixed_anchor {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 1.1em;
+}
+
+label p {
+  display: inline;
+  font-size: 22px;
+}
+
+form {
+  background-color: rgb(105, 64, 64);
+  color: white;
+  text-align: center;
+  margin: 0 auto 10px;
+  padding: 8px;
+  border: 5px solid rgb(168, 168, 168);
+}
