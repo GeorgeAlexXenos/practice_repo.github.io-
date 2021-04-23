@@ -5,37 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./css/forms.css" />
+    <link rel="stylesheet" type="text/css" href="./css/home.css" />
     <title>Forms</title>
   </head>
   <body>
-    <a href="./index.html" class="fixed_anchor">HOME</a>
-    <!----------html input type text --------->
-    <form>
-      <label>
-        <p>text:</p>
-        <input type="text" id="demo" />
-      </label>
-      <button onclick="getValue()">Get Value</button>
-    </form>
+    <header class="header">
+      <a href="/" class="logo"></a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="nav-icon"></span
+      ></label>
+      <ul class="menu">
+        <li><a class="menulist" href="./index.html">HOME</a></li>
+        <li><a class="menulist" href="#sixthpage">FLEXBOX</a></li>
+        <li><a class="menulist" href="#seventhpage">GRID</a></li>
+        <li><a class="menulist" href="./scripts.html">SCRIPTS</a></li>
+        <li><a class="menulist" href="./forms.html">FORMS</a></li>
+        <li><a class="menulist" href="#fifthpage">ELEMENTS</a></li>
+        <li><a class="menulist" href="#ninethpage">CANVAS</a></li>
+      </ul>
+    </header>
+    <!-- **********header ends here****** -->
 
-    <!-----html input type checkbox------------>
-    <form>
-      <label>
-        <p>checkbox:</p>
-        <input type="checkbox" id="demo1" />
-      </label>
-      <button onclick="getValue1()">Get Value</button>
-    </form>
+    <section class="forms">
+      <!----------html input type text --------->
+      <form>
+        <label>
+          <p>text:</p>
+          <input type="text" id="demo" />
+        </label>
+        <button onclick="getValue()">Get Value</button>
+      </form>
 
-    <!-----html input type color------------>
-    <form>
-      <label>
-        <p>color:</p>
-        <input type="color" id="demo2" />
-      </label>
-      <button onclick="getValue2()">Get Value</button>
-    </form>
+      <!-----html input type checkbox------------>
+      <form>
+        <label>
+          <p>checkbox:</p>
+          <input type="checkbox" id="demo1" />
+        </label>
+        <button onclick="getValue1()">Get Value</button>
+      </form>
 
+      <!-----html input type color------------>
+      <form>
+        <label>
+          <p>color:</p>
+          <input type="color" id="demo2" />
+        </label>
+        <button onclick="getValue2()">Get Value</button>
+      </form>
+    </section>
     <!----------js input type text --------->
     <script src="./js/forms.js"></script>
   </body>

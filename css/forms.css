@@ -14,7 +14,10 @@ label p {
   display: inline;
   font-size: 22px;
 }
-
+.forms {
+  position: relative;
+  top: 60px;
+}
 form {
   background-color: rgb(105, 64, 64);
   color: white;
