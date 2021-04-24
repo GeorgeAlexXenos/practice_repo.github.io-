@@ -111,8 +111,8 @@ h1 {
   text-align: center;
   background-color: gray;
   border-bottom: 3px solid black;
-  font-size: 1.5rem;
-  padding: 5px;
+  font-size: 1.6rem;
+  padding: 4px;
 }
 h2 {
   margin-top: 0.8rem;
@@ -238,7 +238,7 @@ label[for] {
 }
 input[placeholder] {
   font-size: 1rem;
-  width: 155px;
+  width: 90px;
   text-align: center;
 }
 input[onClick] {
@@ -321,13 +321,12 @@ td {
 /* --------------Media Queries-------------- */
 @media only screen and (max-width: 700px) {
   .fixed_anchor {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 0 5px;
-    margin: 2px 0 0 2px;
+    margin: 4px 0 0 2px;
   }
   h1 {
     font-size: 1.4em;
-    padding: 0;
   }
   table {
     font-size: 1rem;
@@ -350,11 +349,11 @@ td {
     border: none;
   }
   label[for] {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   input[placeholder] {
-    font-size: 1.2rem;
-    width: 120px;
+    font-size: 1rem;
+    width: 80px;
   }
   input[onClick] {
     font-size: 1rem;
@@ -379,6 +378,10 @@ td {
     padding: 0 5px;
     margin: 2px 0 0 2px;
   }
+  h1 {
+    font-size: 1.2em;
+    padding: 3px;
+  }
 }
 @media only screen and (max-width: 420px) {
   table th {
@@ -397,8 +400,8 @@ td {
     width: 80px;
   }
   h1 {
-    font-size: 1.4em;
-    padding: 0;
+    font-size: 1.2em;
+    padding: 2px;
   }
   h2 {
     font-size: 1.1em;
@@ -407,7 +410,7 @@ td {
     margin-top: 8px;
   }
   .fixed_anchor {
-    font-size: 1.1rem;
-    margin: 2px 0 0 2px;
+    font-size: 1.3rem;
+    margin: 1px 0 0 2px;
   }
 }
