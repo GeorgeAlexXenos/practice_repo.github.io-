@@ -284,7 +284,6 @@ img[alt="css"] {
 img[alt="javascript"] {
   left: 84px;
 }
-
 article img {
   width: 250px;
 }
@@ -301,6 +300,15 @@ article img {
   }
   .post p {
     max-width: 80%;
+  }
+  footer ul {
+    left: 20px;
+  }
+  .social {
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 50%;
+    right: 20px;
   }
 }
 @media screen and (min-width: 740px) {
@@ -344,8 +352,12 @@ article img {
     font-size: 1.5rem;
     bottom: 50%;
     right: 10px;
+    margin: 0;
   }
   footer ul li {
-    margin-bottom: 0;
+    margin: 0;
+  }
+  .footer-copyright {
+    margin-top: 10px;
   }
 }
