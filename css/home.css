@@ -360,4 +360,14 @@ article img {
   .footer-copyright {
     margin-top: 10px;
   }
+  footer {
+    position: relative;
+    width: 97vw;
+    height: 19vh;
+    color: #fff;
+    background: rgb(59, 59, 59);
+    margin-top: 4px;
+    font-size: 80%;
+    border-radius: 1em 1em 0 0;
+  }
 }
